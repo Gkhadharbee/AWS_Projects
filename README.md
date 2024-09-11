@@ -58,7 +58,7 @@ Create the VPC :
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/b1a7c7e4-b892-494a-9270-29c76cfcc32c">
 
 2. Next select the key pair which is in the form of .pem file  
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/5a95e8ea-90d8-4820-a4b6-7c72d5afd49a">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/a7ae1c8f-2d73-4a7a-ad65-b4bace42e52d">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/377b1630-0141-496b-82d4-d1599a2f99ec">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4e82ae2e-4da3-42d4-90dc-487306f97c69">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d20f0185-9552-4167-bc41-e0e3feade1a1">
