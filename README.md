@@ -183,7 +183,7 @@ We intentionally deployed the application on only one instance to check if the L
 1. Access the EC2 Terminal.
 2. Before creating Load Balancer, First create Target Group. For creating Target Group follow the steps below.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/968e2ade-c20a-4fac-b144-2e905c56b464">
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/7ea79c01-2bd5-44dd-8a94-41df3bd6dba2">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/a1e168c5-0762-42e9-8517-8e889d95e7f2">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/dcb69ba9-4312-4ba4-86b2-a863e7180a10">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/ac171b14-b355-4c40-8bf4-590766d6e01b">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/97e582f1-6692-45a5-8ab0-f72b3f8548ba">
