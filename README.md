@@ -31,7 +31,7 @@ a.	Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 b.	On the dashboard, choose Create VPC.  
 c.	For Resources to create, choose VPC and more.  
 d.	Configure the VPC:  
-  a.	For Name tag auto-generation, enter a name for the VPC.
+ a.	For Name tag auto-generation, enter a name for the VPC.
   b.	For IPv4 CIDR block, you can keep the default suggestion, or alternatively you can enter the CIDR block required by your application or network.
   c.	If your application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.
 e.	Configure the subnets
