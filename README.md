@@ -6,6 +6,21 @@ To improve resiliency, you deploy the servers in two availability zones, by usin
 
 ![](https://docs.aws.amazon.com/images/vpc/latest/userguide/images/vpc-example-private-subnets.png)
 
+## Overview
+
+The VPC has pulic subnets and private subnets in two Availability Zones.
+Each public subnet contains a NAT gateway and a load balancer node.
+The servers run in the private subnets, are launched and terminated by using an Auto scaling group, and receive traffic from the load balancer.
+The servers can connect to the internet by using the NAT gateway.
+
+## Pre-requisites
+
+•	Auto scaling group
+•	Load balancer
+•	Launch Template
+•	Target group
+•	Bastion host or Jump server
+
 ## <p align="">Steps</p>
   
 
