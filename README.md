@@ -98,6 +98,7 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
 
 Bastion Host should be created in same vpc.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/fe065293-93df-4d2b-885a-b58b4ceaeb20">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/64aca9e9-e4a4-45e3-b7fc-9a0451287ea5">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1fca6c8a-9b83-45f9-bb2a-eed1547eb200">
 
 ### <p align="">Steps 4:</p>
