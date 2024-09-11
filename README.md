@@ -43,6 +43,7 @@ i.Now, we successfully created the vpc.
 3. Next select the key pair which is in the form of .pem file
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/5a95e8ea-90d8-4820-a4b6-7c72d5afd49a">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/377b1630-0141-496b-82d4-d1599a2f99ec">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/4e82ae2e-4da3-42d4-90dc-487306f97c69">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d20f0185-9552-4167-bc41-e0e3feade1a1">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">
 5. After selecting the all correct details, Click on 'create Launch template'
