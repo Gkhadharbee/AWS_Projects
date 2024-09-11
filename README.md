@@ -186,7 +186,7 @@ We intentionally deployed the application on only one instance to check if the L
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/ac171b14-b355-4c40-8bf4-590766d6e01b">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/97e582f1-6692-45a5-8ab0-f72b3f8548ba">
 
-3.Now, Start create the Load Balancer.
+3.Now, Start create the Load Balancer.    
 4. Follow the below steps.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/ed37ea2f-a18c-42fb-be06-40f995e0aa9d">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d8e198bf-949d-40ec-a54c-69ee30f51b0d">
