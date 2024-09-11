@@ -142,8 +142,6 @@ Bastion Host should be created in same vpc.
    ``` bash
    ssh -i prod_kp.pem ubuntu@<private IP>
    ```
-   
-   <img width="960" alt="image" src="https://github.com/user-attachments/assets/0a7c1590-a2ea-46a3-9605-fd58e537eedf">
 
    d. We will deploy our application on one of the private 
    instances to test the load balancer. After successfully 
