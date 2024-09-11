@@ -28,6 +28,9 @@ d. For NAT gateways, choose "1 per AZ" to enhance resiliency.
 g. For VPC endpoints, you can choose "None" .    
 h. Regarding DNS options, clear the checkbox for "Enable DNS hostnames."    
 Once you've configured all the settings, click "Create VPC."
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/d42e7a19-e9c4-4cbc-ba7f-aaa0278573a7">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/da629b3f-34a6-4cdb-ac59-980b115c3542">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/69004536-7b60-47ea-bc47-fdcb190a522a">
 i.Now, we successfully created the vpc.
 
 ### <p align="">Step2:</p>
