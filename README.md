@@ -53,7 +53,7 @@ Create the VPC :
   
 ### **Creating the Auto Scaling Group :**
   
-1. First create the Launch template
+1. Before creating Auto Scaling Group, First create the Launch template.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e99b40a8-8910-4e27-b26d-bbb2e67a9bda">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/b1a7c7e4-b892-494a-9270-29c76cfcc32c">
 2. Next select the key pair which is in the form of .pem file
@@ -62,7 +62,8 @@ Create the VPC :
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4e82ae2e-4da3-42d4-90dc-487306f97c69">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d20f0185-9552-4167-bc41-e0e3feade1a1">
 3. After selecting the all correct details, Click on 'create Launch template'
-4. <img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">
+4.Now create Auto Scaling Group. 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1b064909-af69-4092-b4c4-22c53afaedde">
 5. Scroll Down and then Click "Next".
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/64228bf7-b401-41cb-b6b5-ca2052b7dfd4">
