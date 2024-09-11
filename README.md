@@ -15,11 +15,11 @@ The servers can connect to the internet by using the NAT gateway.
 
 ## Pre-requisites
 
-•	Auto scaling group
-•	Load balancer
-•	Launch Template
-•	Target group
-•	Bastion host or Jump server
+•	Auto scaling group  
+•	Load balancer  
+•	Launch Template  
+•	Target group  
+•	Bastion host or Jump server  
 
 ## <p align="">Steps</p>
   
