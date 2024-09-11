@@ -31,19 +31,19 @@ a.	Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 b.	On the dashboard, choose Create VPC.  
 c.	For Resources to create, choose VPC and more.  
 d.	Configure the VPC:  
-    a.	For Name tag auto-generation, enter a name for the VPC.
-  b.	For IPv4 CIDR block, you can keep the default suggestion, or alternatively you can enter the CIDR block required by your application or network.
-  c.	If your application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.
-e.	Configure the subnets
-  a.	For Number of Availability Zones, choose 2, so that you can launch instances in multiple Availability Zones to improve resiliency.
-  b.	For Number of public subnets, choose 2.
-  c.	For Number of private subnets, choose 2.
-  d.	You can keep the default CIDR block for the public subnet, or alternatively you can expand Customize subnet CIDR blocks and enter a CIDR block. For more information,        see Subnet CIDR blocks.
-f.	For NAT gateways, choose 1 per AZ to improve resiliency.
-g.	If your application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.
-h.	For VPC endpoints, if your instances must access an S3 bucket, keep the S3 Gateway default. Otherwise, instances in your private subnet can't access Amazon S3. There is no cost for this option, so you can keep the default if you might use an S3 bucket in the future. If you choose None, you can always add a gateway VPC endpoint later on. So, Now go with the None 
-i.	For DNS options, clear Enable DNS hostnames.
-j.	Choose Create VPC.
+  a.	For Name tag auto-generation, enter a name for the VPC.  
+  b.	For IPv4 CIDR block, you can keep the default suggestion, or alternatively you can enter the CIDR block required by your application or network.  
+  c.	If your application communicates by using IPv6 addresses, choose IPv6 CIDR block, Amazon-provided IPv6 CIDR block.  
+e.	Configure the subnets  
+  a.	For Number of Availability Zones, choose 2, so that you can launch instances in multiple Availability Zones to improve resiliency.  
+  b.	For Number of public subnets, choose 2.  
+  c.	For Number of private subnets, choose 2.  
+  d.	You can keep the default CIDR block for the public subnet, or alternatively you can expand Customize subnet CIDR blocks and enter a CIDR block. For more information,        see Subnet CIDR blocks.  
+f.	For NAT gateways, choose 1 per AZ to improve resiliency.  
+g.	If your application communicates by using IPv6 addresses, for Egress only internet gateway, choose Yes.  
+h.	For VPC endpoints, if your instances must access an S3 bucket, keep the S3 Gateway default. Otherwise, instances in your private subnet can't access Amazon S3. There is no cost for this option, so you can keep the default if you might use an S3 bucket in the future. If you choose None, you can always add a gateway VPC endpoint later on. So, Now go with the None   
+i.	For DNS options, clear Enable DNS hostnames.  
+j.	Choose Create VPC.  
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d42e7a19-e9c4-4cbc-ba7f-aaa0278573a7">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/da629b3f-34a6-4cdb-ac59-980b115c3542">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/69004536-7b60-47ea-bc47-fdcb190a522a">
