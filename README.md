@@ -140,7 +140,7 @@ Bastion Host should be created in same vpc.
    instance's IP address:
 
    ``` bash
-   ssh -i prod_kp.pem ubuntu@<private IP>
+   ssh -i prod_kp.pem ec2-user@<private IP>
    ```
 
    d. We will deploy our application on one of the private 
