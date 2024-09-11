@@ -38,12 +38,18 @@ i.Now, we successfully created the vpc.
 ### **Creating the Auto Scaling Group :**
   
 1. First create the Launch template
-2. Next select the key pair which is in the form of .pem file
-3. After selecting the all correct details, Click on 'create Launch template'
-4. Scroll Down and then Click "Next".
-5. Click on 'create Auto scaling group'.
-6.  Now your are Successfully Created Auto Scaling Group.
-7. Look for the instances created by your Auto Scaling Group.
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e99b40a8-8910-4e27-b26d-bbb2e67a9bda">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/b1a7c7e4-b892-494a-9270-29c76cfcc32c">
+3. Next select the key pair which is in the form of .pem file
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/05e22b60-2a1e-4992-bc21-4bef31c8a262">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/31c281ae-f381-4ef3-9cee-813390304941">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e98cd89d-003e-4aa6-b162-0fdcb6f3b1b0">
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">
+5. After selecting the all correct details, Click on 'create Launch template'
+6. Scroll Down and then Click "Next".
+7. Click on 'create Auto scaling group'.
+8.  Now your are Successfully Created Auto Scaling Group.
+9. Look for the instances created by your Auto Scaling Group.
 Since you mentioned that the Auto Scaling Group launched instances in different Availabilty Zones, you can check the "Availability Zone" column to verify that these instances are indeed distributed across multiple Availability Zones.
 
 ### <p align="">Step 3:</p>
