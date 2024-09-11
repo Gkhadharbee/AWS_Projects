@@ -74,24 +74,24 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
    the Bastion host's public IP address. Example:
 
    ``` bash
-   scp -i /Users/mathesh/Downloads/aws_demo.pem 
-   /Users/mathesh/Downloads/aws_demo.pem  
-   ubuntu@34.229.240.123:/home/ubuntu
+   scp -i /Users/khadharbee/Downloads/prod_kp.pem 
+   /Users/khadharbee/Downloads/prod_kp.pem  
+   ubuntu@10.0.18.8:/home/ubuntu
    ```
 
    d. After SSHing into the Bastion host, use the ls command 
    to check if the ``` prod_kp.pem``` file is present. If it's not 
-   there, double-check your previous commands. f. Now, you 
+   there, double-check your previous commands. Now, you 
    can SSH into the private instance using the following 
    command, replacing < private IP> with the private 
    instance's IP address:
 
    ``` bash
-   ssh -i aws_demo.pem ubuntu@<private IP>
+   ssh -i prod_kp.pem ubuntu@<private IP>
    ```
 
    e. We will deploy our application on one of the private 
-   instances to test the load balancer. h. After successfully 
+   instances to test the load balancer. After successfully 
    SSHing into the private instance, create an HTML file 
    using the Vim text editor:
 
@@ -99,21 +99,20 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
    vim index.html
    ```
    f. This will open the Vim editor. Copy and paste any HTML 
-   content you like into the editor. j. For example:
+   content you like into the editor. For example:
    ``` bash
-   <!DOCTYPE html>
    <html>
    <head>
    <title>Page Title</title>
    </head>
    <body>
 
-   <h1>This is an AWS Demo Production</h1>
+   <h1>This is my first project to demonstrate apps in private subnets</h1>
    </body>
    </html>
    ```
    g. After pasting the content, save the file by pressing 'Esc' 
-   to exit insert mode and then entering :w to save. l. Finally, 
+   to exit insert mode and then entering ':w' to save. Finally, 
    start a Python HTTP server on port 8000 to deploy your 
    application on the private instance:
    ``` bash
