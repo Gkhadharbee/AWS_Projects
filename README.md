@@ -187,20 +187,23 @@ We intentionally deployed the application on only one instance to check if the L
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/dcb69ba9-4312-4ba4-86b2-a863e7180a10">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/ac171b14-b355-4c40-8bf4-590766d6e01b">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/97e582f1-6692-45a5-8ab0-f72b3f8548ba">
+
 3.Now, Start create the Load Balancer.
 4. Follow the below steps.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/ed37ea2f-a18c-42fb-be06-40f995e0aa9d">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d8e198bf-949d-40ec-a54c-69ee30f51b0d">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/d4fde067-740e-46ab-8afd-561fdf12e004">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/7f466cdc-c4a7-4e25-b885-1ad5ca1ada08">
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/28d7d2e6-2996-4143-b2f4-ac88291501ce">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/55a3ed87-11ca-44b9-9b58-919ff5c0feda">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/a32c2c45-4f74-4e4d-b28a-81be4829b7e4">
+
 5. Now, we successfully created the Load Balancer.
 6. We allowed port 8000 in security group Inbound rule but not port 80 which we given in Load Balancer. So it show error like this:
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/a50fe213-b453-484a-9011-35c73914afaa">
+
 7. So, Add and save the port 80 rule in Inbound rule section. Then Not reachable turn to the reachable in green colour.
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/472a43f7-b5e9-45b7-95c8-4b6ac8a8ec93"> 
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/472a43f7-b5e9-45b7-95c8-4b6ac8a8ec93">
+
 8. As all the steps completed, Copy DNS name & paste it in browser to access website from first EC2 instance
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1279a22f-ce29-4d47-8b80-951d15ec6b7a">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/f02371ff-8be4-4aba-9f96-d8370a3887df">
