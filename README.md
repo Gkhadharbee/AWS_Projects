@@ -55,16 +55,20 @@ Create the VPC :
   
 1. Before creating Auto Scaling Group, First create the Launch template.
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e99b40a8-8910-4e27-b26d-bbb2e67a9bda">
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/b1a7c7e4-b892-494a-9270-29c76cfcc32c">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/b1a7c7e4-b892-494a-9270-29c76cfcc32c">
+
 2. Next select the key pair which is in the form of .pem file  
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/5a95e8ea-90d8-4820-a4b6-7c72d5afd49a">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/377b1630-0141-496b-82d4-d1599a2f99ec">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4e82ae2e-4da3-42d4-90dc-487306f97c69">
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/d20f0185-9552-4167-bc41-e0e3feade1a1">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/d20f0185-9552-4167-bc41-e0e3feade1a1">
+
 3. After selecting the all correct details, Click on 'create Launch template'
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/f949f122-7fc0-459a-a3e0-62577cc6ec56">
+
 4. Now create Auto Scaling Group. 
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/1b064909-af69-4092-b4c4-22c53afaedde">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/6ea70327-6533-4aef-9ddc-b601ced0b519">
+
 5. Scroll Down and then Click "Next".
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/64228bf7-b401-41cb-b6b5-ca2052b7dfd4">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/85f7fb43-eef2-4b1b-b47f-d1428ddf4d3b">
@@ -73,9 +77,11 @@ Create the VPC :
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/a07f6d70-e317-4781-b1e8-bb097edab19a">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/b367a901-c2b5-4474-b70c-ea6da609da1d">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/fa7c2eac-53e2-4f58-b875-51c284c30e54">
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/601252b1-547e-46e4-9cf2-0402ce9c2cab">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/601252b1-547e-46e4-9cf2-0402ce9c2cab">
+
 6. Click on 'create Auto scaling group'.
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/244f29b3-2c94-4649-ba25-5f09bb6ce03d">  
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/244f29b3-2c94-4649-ba25-5f09bb6ce03d">
+
 7. Now your are Successfully Created Auto Scaling Group.
 8. Look for the instances created by your Auto Scaling Group.
 Since you mentioned that the Auto Scaling Group launched instances in different Availabilty Zones, you can check the "Availability Zone" column to verify that these instances are indeed distributed across multiple Availability Zones.
