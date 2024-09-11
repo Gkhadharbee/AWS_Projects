@@ -207,6 +207,7 @@ We intentionally deployed the application on only one instance to check if the L
 8. As all the steps completed, Copy DNS name & paste it in browser to access website from first EC2 instance
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1279a22f-ce29-4d47-8b80-951d15ec6b7a">
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/f02371ff-8be4-4aba-9f96-d8370a3887df">
+
 Now We Successfully deployed Application securely in Private instance.
 
   
